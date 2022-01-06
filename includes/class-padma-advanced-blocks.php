@@ -61,23 +61,6 @@ class Padma_Advanced_Blocks {
 			'vimeo'         => 'PadmaVisualElementsBlockVimeo',
 			'youtube'       => 'PadmaVisualElementsBlockYoutube',
 			'quote'         => 'PadmaVisualElementsBlockQuote',
-		);
-
-		if ( function_exists( 'is_plugin_active' ) && ! is_plugin_active( 'padma-visual-elements/padma-visual-elements.php' ) ) {
-			$this->blocks['free'] = array_merge( $this->blocks['free'], $padma_visual_elements_free );
-		}
-
-		/**
-		 *
-		 * Register elements as blocks (PRO)
-		 */
-		$this->blocks['pro'] = array();
-
-		/**
-		 * Pro Visual Elements Blocks
-		 */
-
-		$padma_visual_elements_pro = array(
 			'content-to-accordion' => 'PadmaVisualElementsBlockContentToAccordion',
 			'content-to-cards'     => 'PadmaVisualElementsBlockContentToCards',
 			'content-to-tabs'      => 'PadmaVisualElementsBlockContentToTabs',
@@ -87,36 +70,15 @@ class Padma_Advanced_Blocks {
 			'portfolio'            => 'PadmaVisualElementsBlockPortfolio',
 			'portfolio-cards'      => 'PadmaVisualElementsBlockPortfolioCards',
 			'post-data'            => 'PadmaVisualElementsBlockPostData',
-		);
-
-		if ( function_exists( 'is_plugin_active' ) && ! is_plugin_active( 'padma-visual-elements/padma-visual-elements.php' ) ) {
-			$this->blocks['pro'] = array_merge( $this->blocks['pro'], $padma_visual_elements_pro );
-		}
-
-		/**
-		 * Padma Store PRO blocks
-		 */
-		$padma_store_pro = array(
 			'store-products'     => 'PadmaStoreBlockProducts',
 			'store-account'      => 'PadmaStoreBlockAccount',
 			'store-login-button' => 'PadmaStoreBlockLoginButton',
-		);
-
-		if ( function_exists( 'is_plugin_active' ) && ! is_plugin_active( 'padma-store/padma-store.php' ) ) {
-			$this->blocks['pro'] = array_merge( $this->blocks['pro'], $padma_store_pro );
-		}
-
-		/**
-		 * Slider Revolution plugin
-		 */
-		$slider_revolution = array(
 			'slider-revolution' => 'PadmaSliderRevolution',
 		);
 
-		if ( function_exists( 'is_plugin_active' ) && ! is_plugin_active( 'padma-slider-revolution/padma-slider-revolution.php' ) ) {
-			$this->blocks['pro'] = array_merge( $this->blocks['pro'], $slider_revolution );
+		if ( function_exists( 'is_plugin_active' ) && ! is_plugin_active( 'padma-visual-elements/padma-visual-elements.php' ) ) {
+			$this->blocks['free'] = array_merge( $this->blocks['free'], $padma_visual_elements_free );
 		}
-
 	}
 
 	/**
@@ -160,38 +122,6 @@ class Padma_Advanced_Blocks {
 				$icons
 			);
 
-		}
-
-		/**
-		 * Pro Blocks
-		 */
-		if ( ! class_exists( __NAMESPACE__ . '\PadmaDummyBlockOptions' ) ) {
-			include_once PADMA_ADVANCED_DIR . 'includes/class-dummy-block-options.php';
-		}
-
-		foreach ( $this->blocks['pro'] as $block_name => $block_class ) {
-
-			$block_type_url = PADMA_ADVANCED_URL . 'blocks/' . $block_name;
-			$class_file     = PADMA_ADVANCED_DIR . 'blocks/' . $block_name . '/' . $block_name . '-block.php';
-			$options_file   = PADMA_ADVANCED_DIR . 'blocks/' . $block_name . '/' . $block_name . '-options.php';
-
-			$icons = array(
-				'path' => __DIR__ . '/blocks-pro/' . $block_name . '/',
-				'url'  => $block_type_url . '/',
-			);
-
-			if ( file_exists( $options_file ) ) {
-				include $options_file;
-			}
-
-			$block_class_complete = __NAMESPACE__ . '\\' . $block_class;
-
-			padma_register_block(
-				$block_class_complete,
-				$block_type_url,
-				$class_file,
-				$icons
-			);
 		}
 	}
 
