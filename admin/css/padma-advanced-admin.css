@@ -1,0 +1,211 @@
+.padma-settings-wrap{
+	margin: 10px 20px 0 2px;
+}
+.padma-settings-wrap table{
+	margin: 0;
+}
+.padma-settings-wrap table .button {
+	vertical-align: middle
+}
+.padma-box{
+	margin-top: 0;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	background: #FFFFFF;
+	border: 1px solid #ccd0d4;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+.padma-box a{
+	text-decoration: none;
+}
+.padma-box .title{
+	border-bottom: 1px solid #ccd0d4;
+	margin: 0;
+	padding: 15px;
+}
+.padma-box .title h3{
+    font-size: 14px;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.padma-box#list .inner {
+	flex-wrap: wrap;
+    display: flex;
+	padding-top: 0;
+}
+.padma-box .inner {
+    padding: 15px;
+}
+.padma-box .inner p{
+	margin-top: 0.5em;
+}
+.padma-hidden{
+	display: none !important;
+}
+.padma-input-wrap input{
+	width: 25%;
+}
+.padma-input-wrap input[type="checkbox"]{
+	width: initial;
+}
+.padma-input-wrap select {
+	width: 25%;
+}
+.padma-input-wrap textarea {
+	width: 25%;
+}
+.padma-input-wrap input.long {
+	width: 50%;
+}
+.padma-input-wrap select.long {
+	width: 50%;
+}
+.padma-input-wrap textarea.long {
+	width: 50%;
+}
+.padma-input-wrap p.tooltip {	
+	margin-top: 15px;
+	position: relative;
+	display: block;
+	border: 0;
+}
+.handlediv{
+	display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: 0 0;
+	cursor: pointer;
+	outline: none;
+}
+.handlediv .toggle-indicator:before {
+	margin-top: 4px;
+	width: 20px;
+	border-radius: 50%;
+	text-indent: -1px;
+	content: "\f142";
+	display: inline-block;
+	font: normal 20px/1 dashicons;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+}
+.handlediv .toggle-indicator:before {
+	content: "\f140";
+}
+.padma-box.closed .inner{
+	display: none;
+}
+.padma-settings-wrap .nav-tab{}
+.padma-settings-wrap .nav-tab.active {
+	background: #FFFFFF;
+}
+.padma-settings-wrap .tab-content{
+	display: none;
+	padding-top: 20px;
+}
+.padma-settings-wrap .tab-content.active {
+	display: block;
+}
+
+.padma-box .checkbox-container{
+	display: block;
+}
+.padma-box .inner .success {
+	color: #008000;
+}
+.padma-box .inner .error {
+	color: #ff0000;
+}
+.padma-help-link{
+	display: inline-block;
+	margin-left: 10px;
+}
+.padma-help-link img{
+	width: 12px;
+	height: 12px;
+}
+.padma-advanced-list-item{
+	margin: 0 22px 22px 0;
+    width: 150px;
+    height: 200px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #999;
+	position: relative;
+	opacity: 0.7;
+	cursor: pointer;
+	padding: 10px;
+}
+.padma-advanced-list-item:hover{
+	opacity: 1;
+}
+
+.padma-advanced-list-item img.pro{
+	position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+}
+.padma-advanced-list-item-image{
+	display: block;
+    padding: 15px;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    -webkit-transition: box-shadow .2s ease;
+    transition: box-shadow .2s ease;
+}
+.padma-advanced-list-item-title{
+	display: block;
+    overflow: hidden;
+    margin: 8px 0;
+    height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 18px;
+    font-weight: 800
+}
+.padma-advanced-list-item-description{
+	display: none;
+	width: calc(100% - 10px);
+    text-align: center;
+	margin: auto;
+}
+.padma-advanced-list-item.active{
+    overflow-y: scroll;
+}
+.padma-advanced-list-item.active .padma-advanced-list-item-description{
+	display: block;
+}
+.padma-advanced-list-item.active img.pro,
+.padma-advanced-list-item.active .padma-advanced-list-item-image{
+	display: none;
+}
+.block-type-selector-filter-categories{
+	width: 100%;
+}
+.block-type-selector-filter-categories li{
+	display: inline-block;
+    width: auto;
+}
+.block-type-selector-filter-categories li a{
+	display: inline-block;
+    margin: 0 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    border-bottom: 4px solid #fff;
+    color: #666;
+    cursor: pointer;
+}
+.block-type-selector-filter-categories li a.active {
+    border-bottom: 4px solid #c62040;
+}

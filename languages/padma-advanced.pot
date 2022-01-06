@@ -1,0 +1,2035 @@
+# Copyright (C) 2020 Padma Unlimited
+# This file is distributed under the same license as the Padma Advanced plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Padma Advanced 0.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/padma-advanced\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-21T09:31:02-05:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: padma-advanced\n"
+
+#. Plugin Name of the plugin
+msgid "Padma Advanced"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://padmaunlimited.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Padma Advanced Description"
+msgstr ""
+
+#. Author of the plugin
+msgid "Padma Unlimited"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.padmaunlimited.com"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:135
+msgid "Available Blocks"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:136
+msgid "Templates"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:137
+#: admin/class-padma-advanced-admin.php:155
+#: admin/class-padma-advanced-admin.php:156
+#: admin/partials/padma-advanced-admin-display.php:40
+msgid "Settings"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:138
+msgid "Information"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:145
+msgid "Blocks"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:160
+msgid "Enable"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:163
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:57
+#: blocks-pro/portfolio/portfolio-options.php:143
+#: blocks-pro/portfolio/portfolio-options.php:169
+#: blocks-pro/portfolio/portfolio-options.php:203
+#: blocks-pro/portfolio/portfolio-options.php:215
+#: blocks-pro/portfolio/portfolio-options.php:227
+#: blocks-pro/portfolio/portfolio-options.php:239
+#: blocks-pro/portfolio/portfolio-options.php:251
+#: blocks/accordion/accordion-options.php:71
+#: blocks/columns/columns-options.php:82
+#: blocks/dailymotion/dailymotion-options.php:79
+#: blocks/dailymotion/dailymotion-options.php:91
+#: blocks/dailymotion/dailymotion-options.php:127
+#: blocks/dailymotion/dailymotion-options.php:154
+#: blocks/dailymotion/dailymotion-options.php:166
+#: blocks/divider/divider-options.php:55
+#: blocks/dummy-text/dummy-text-options.php:75
+#: blocks/gmap/gmap-options.php:63
+#: blocks/spoiler/spoiler-options.php:67
+#: blocks/tabs/tabs-options.php:63
+#: blocks/tabs/tabs-options.php:87
+#: blocks/vimeo/vimeo-options.php:80
+#: blocks/vimeo/vimeo-options.php:92
+#: blocks/vimeo/vimeo-options.php:104
+#: blocks/youtube/youtube-options.php:80
+#: blocks/youtube/youtube-options.php:92
+#: blocks/youtube/youtube-options.php:104
+msgid "Yes"
+msgstr ""
+
+#: admin/class-padma-advanced-admin.php:164
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:58
+#: blocks-pro/portfolio/portfolio-options.php:144
+#: blocks-pro/portfolio/portfolio-options.php:170
+#: blocks-pro/portfolio/portfolio-options.php:204
+#: blocks-pro/portfolio/portfolio-options.php:216
+#: blocks-pro/portfolio/portfolio-options.php:228
+#: blocks-pro/portfolio/portfolio-options.php:240
+#: blocks-pro/portfolio/portfolio-options.php:252
+#: blocks/accordion/accordion-options.php:72
+#: blocks/columns/columns-options.php:83
+#: blocks/dailymotion/dailymotion-options.php:80
+#: blocks/dailymotion/dailymotion-options.php:92
+#: blocks/dailymotion/dailymotion-options.php:128
+#: blocks/dailymotion/dailymotion-options.php:155
+#: blocks/dailymotion/dailymotion-options.php:167
+#: blocks/divider/divider-options.php:56
+#: blocks/dummy-text/dummy-text-options.php:76
+#: blocks/gmap/gmap-options.php:64
+#: blocks/spoiler/spoiler-options.php:68
+#: blocks/tabs/tabs-options.php:64
+#: blocks/tabs/tabs-options.php:88
+#: blocks/vimeo/vimeo-options.php:81
+#: blocks/vimeo/vimeo-options.php:93
+#: blocks/vimeo/vimeo-options.php:105
+#: blocks/youtube/youtube-options.php:81
+#: blocks/youtube/youtube-options.php:93
+#: blocks/youtube/youtube-options.php:105
+msgid "No"
+msgstr ""
+
+#: admin/partials/padma-advanced-require-padma.php:16
+msgid "Padma Advanced require Padma Unlimited theme to be active . "
+msgstr ""
+
+#: admin/partials/padma-advanced-require-plugin-shortcodes-ultimate.php:16
+msgid "Padma Advanced require Shortcodes Ultimate be active . "
+msgstr ""
+
+#: admin/partials/padma-advanced-require-plugin-visual-elements.php:16
+msgid "Padma Advanced require Padma Visual Elements be Inactive . "
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:42
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:42
+#: blocks-pro/fontawesome/fontawesome-options.php:39
+#: blocks-pro/lightbox/lightbox-options.php:42
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:42
+#: blocks-pro/portfolio/portfolio-options.php:42
+#: blocks-pro/post-data/post-data-options.php:42
+#: blocks/accordion/accordion-options.php:42
+#: blocks/basic-heading/basic-heading-options.php:42
+#: blocks/box/box-options.php:40
+#: blocks/button/button-options.php:42
+#: blocks/columns/columns-options.php:42
+#: blocks/dailymotion/dailymotion-options.php:41
+#: blocks/dummy-image/dummy-image-options.php:42
+#: blocks/dummy-text/dummy-text-options.php:41
+#: blocks/gmap/gmap-options.php:42
+#: blocks/heading/heading-options.php:41
+#: blocks/label/label-options.php:42
+#: blocks/quote/quote-options.php:42
+#: blocks/spacer/spacer-options.php:42
+#: blocks/spoiler/spoiler-options.php:42
+#: blocks/tabs/tabs-options.php:42
+#: blocks/vimeo/vimeo-options.php:42
+#: blocks/youtube/youtube-options.php:42
+msgid "General"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:43
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:43
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:43
+#: blocks-pro/portfolio/portfolio-options.php:43
+msgid "Query Filters"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:53
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:66
+msgid "CSS Class"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:54
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:61
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:67
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:125
+#: blocks/accordion/accordion-options.php:53
+#: blocks/columns/columns-options.php:93
+msgid "Additional CSS class name(s) separated by space(s)"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:60
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:124
+msgid "CSS Class for the items"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:67
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:73
+#: blocks/accordion/accordion-options.php:79
+#: blocks/box/box-options.php:50
+#: blocks/button/button-options.php:71
+#: blocks/divider/divider-options.php:68
+#: blocks/spoiler/spoiler-options.php:76
+msgid "Style"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:74
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:97
+#: blocks/accordion/accordion-options.php:86
+#: blocks/spoiler/spoiler-options.php:83
+#: blocks/spoiler/spoiler-options.php:106
+msgid "Choose style for this spoiler"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:79
+#: blocks/accordion/accordion-options.php:91
+#: blocks/button/button-block.php:98
+#: blocks/button/button-options.php:90
+#: blocks/fontawesome/fontawesome-block.php:89
+#: blocks/spoiler/spoiler-options.php:89
+msgid "Icon"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:102
+msgid "Default opened item"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:104
+msgid "Spoiler item open by default"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:113
+#: blocks-pro/content-to-cards/content-to-cards-options.php:65
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:135
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:144
+#: blocks-pro/portfolio/portfolio-options.php:271
+msgid "Categories"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:121
+#: blocks-pro/content-to-cards/content-to-cards-options.php:73
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:143
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:152
+#: blocks-pro/portfolio/portfolio-options.php:279
+msgid "Categories Mode"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:124
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:146
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:155
+#: blocks-pro/portfolio/portfolio-options.php:282
+msgid "Include"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:125
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:147
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:156
+#: blocks-pro/portfolio/portfolio-options.php:283
+msgid "Exclude"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:132
+#: blocks-pro/content-to-cards/content-to-cards-options.php:84
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:154
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:163
+#: blocks-pro/portfolio/portfolio-options.php:290
+msgid "Tags Filter"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:133
+#: blocks-pro/content-to-cards/content-to-cards-options.php:85
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:155
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:164
+#: blocks-pro/portfolio/portfolio-options.php:291
+msgid "Check this to allow the tags filter show . "
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:152
+#: blocks-pro/content-to-cards/content-to-cards-options.php:104
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:174
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:183
+#: blocks-pro/portfolio/portfolio-options.php:310
+msgid "Tags"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:160
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:210
+#: blocks-pro/content-to-cards/content-to-cards-options.php:112
+#: blocks-pro/content-to-cards/content-to-cards-options.php:162
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:182
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:232
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:191
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:241
+#: blocks-pro/portfolio/portfolio-options.php:318
+#: blocks-pro/portfolio/portfolio-options.php:368
+msgid "Post Type"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:169
+#: blocks-pro/content-to-cards/content-to-cards-options.php:121
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:191
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:200
+#: blocks-pro/portfolio/portfolio-options.php:327
+msgid "Post Status"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:177
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:209
+#: blocks-pro/content-to-cards/content-to-cards-options.php:129
+#: blocks-pro/content-to-cards/content-to-cards-options.php:161
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:199
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:231
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:208
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:240
+#: blocks-pro/portfolio/portfolio-options.php:335
+#: blocks-pro/portfolio/portfolio-options.php:367
+msgid "Author"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:185
+#: blocks-pro/content-to-cards/content-to-cards-options.php:137
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:207
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:216
+#: blocks-pro/portfolio/portfolio-options.php:343
+msgid "Number of Posts"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:193
+#: blocks-pro/content-to-cards/content-to-cards-options.php:145
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:215
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:224
+#: blocks-pro/portfolio/portfolio-options.php:351
+msgid "Offset"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:194
+#: blocks-pro/content-to-cards/content-to-cards-options.php:146
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:216
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:225
+#: blocks-pro/portfolio/portfolio-options.php:352
+msgid "The offset is the number of entries or posts you would like to skip.  If the offset is 1, then the first post will be skipped . "
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:201
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:202
+#: blocks-pro/content-to-cards/content-to-cards-options.php:153
+#: blocks-pro/content-to-cards/content-to-cards-options.php:154
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:223
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:224
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:232
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:233
+#: blocks-pro/portfolio/portfolio-options.php:359
+#: blocks-pro/portfolio/portfolio-options.php:360
+msgid "Order By"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:204
+#: blocks-pro/content-to-cards/content-to-cards-options.php:156
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:226
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:235
+#: blocks-pro/portfolio/portfolio-options.php:362
+msgid "Date"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:205
+#: blocks-pro/content-to-cards/content-to-cards-options.php:157
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:227
+#: blocks-pro/lightbox/lightbox-options.php:98
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:236
+#: blocks-pro/portfolio/portfolio-options.php:363
+#: blocks/accordion/accordion-block.php:256
+#: blocks/accordion/accordion-options.php:64
+#: blocks/box/box-block.php:110
+#: blocks/box/box-options.php:73
+#: blocks/button/button-options.php:114
+#: blocks/lightbox/lightbox-block.php:104
+#: blocks/lightbox/lightbox-block.php:112
+#: blocks/spoiler/spoiler-options.php:59
+#: blocks/tabs/tabs-block.php:101
+#: blocks/tabs/tabs-options.php:79
+msgid "Title"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:206
+#: blocks-pro/content-to-cards/content-to-cards-options.php:158
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:228
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:237
+#: blocks-pro/portfolio/portfolio-options.php:364
+msgid "Random"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:207
+#: blocks-pro/content-to-cards/content-to-cards-options.php:159
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:229
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:238
+#: blocks-pro/portfolio/portfolio-options.php:365
+msgid "Comment Count"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:208
+#: blocks-pro/content-to-cards/content-to-cards-options.php:160
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:230
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:239
+#: blocks-pro/portfolio/portfolio-options.php:366
+msgid "ID"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:211
+#: blocks-pro/content-to-cards/content-to-cards-options.php:163
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:233
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:242
+#: blocks-pro/portfolio/portfolio-options.php:369
+msgid "Custom Order"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:218
+#: blocks-pro/content-to-cards/content-to-cards-options.php:170
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:240
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:249
+#: blocks-pro/portfolio/portfolio-options.php:376
+msgid "Order"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:221
+#: blocks-pro/content-to-cards/content-to-cards-options.php:173
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:243
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:252
+#: blocks-pro/portfolio/portfolio-options.php:379
+msgid "Descending"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:222
+#: blocks-pro/content-to-cards/content-to-cards-options.php:174
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:244
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:253
+#: blocks-pro/portfolio/portfolio-options.php:380
+msgid "Ascending"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:229
+#: blocks-pro/content-to-cards/content-to-cards-options.php:181
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:251
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:260
+#: blocks-pro/portfolio/portfolio-options.php:387
+msgid "Include by ID"
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:230
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:237
+#: blocks-pro/content-to-cards/content-to-cards-options.php:182
+#: blocks-pro/content-to-cards/content-to-cards-options.php:189
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:252
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:259
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:261
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:268
+#: blocks-pro/portfolio/portfolio-options.php:388
+#: blocks-pro/portfolio/portfolio-options.php:395
+msgid "In both Include and Exclude by ID, you use a comma separated list of IDs of your post type . "
+msgstr ""
+
+#: blocks-pro/content-to-accordion/content-to-accordion-options.php:236
+#: blocks-pro/content-to-cards/content-to-cards-options.php:188
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:258
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:267
+#: blocks-pro/portfolio/portfolio-options.php:394
+msgid "Exclude by ID"
+msgstr ""
+
+#: blocks-pro/content-to-cards/content-to-cards-options.php:54
+#: blocks-pro/content-to-cards/content-to-cards-options.php:55
+msgid "Scroll text"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:53
+#: blocks/tabs/tabs-options.php:59
+msgid "Vertical"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:60
+#: blocks/tabs/tabs-options.php:66
+msgid "Align tabs vertically"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:91
+msgid "Choose style for this tabs"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:97
+msgid "Active (1-100)"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:99
+msgid "Select which tab is open by default"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:105
+msgid "Enable post link"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:106
+msgid "Link tab to any webpage. Use full URL to turn the tab title into link"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:114
+#: blocks/button/button-options.php:63
+#: blocks/tabs/tabs-options.php:113
+msgid "Open in same tab"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:115
+#: blocks/button/button-options.php:64
+#: blocks/tabs/tabs-options.php:114
+msgid "Open in new tab"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:117
+#: blocks/button/button-options.php:60
+#: blocks/tabs/tabs-options.php:110
+msgid "Target"
+msgstr ""
+
+#: blocks-pro/content-to-tabs/content-to-tabs-options.php:118
+#: blocks/tabs/tabs-options.php:116
+msgid "Choose how to open the custom tab link"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:43
+#: blocks-pro/lightbox/lightbox-options.php:59
+#: blocks-pro/lightbox/lightbox-options.php:107
+#: blocks/portfolio/portfolio-block.php:152
+msgid "Image"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:44
+#: blocks-pro/lightbox/lightbox-options.php:60
+msgid "Iframe"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:45
+#: blocks-pro/lightbox/lightbox-options.php:61
+msgid "Inline"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:56
+#: blocks/label/label-options.php:52
+msgid "Type"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:92
+msgid "Select type of the lightbox window content"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:99
+msgid "Text for the title"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:108
+msgid "Select the image to show"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:116
+msgid "URL"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:117
+msgid "URL to show"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:125
+#: blocks/accordion/accordion-options.php:119
+#: blocks/box/box-block.php:118
+#: blocks/box/box-options.php:80
+#: blocks/columns/columns-options.php:99
+#: blocks/lightbox/lightbox-block.php:120
+#: blocks/portfolio/portfolio-block.php:197
+#: blocks/post-data/post-data-block.php:88
+#: blocks/spoiler/spoiler-options.php:119
+#: blocks/tabs/tabs-options.php:122
+msgid "Content"
+msgstr ""
+
+#: blocks-pro/lightbox/lightbox-options.php:126
+msgid "Content to show"
+msgstr ""
+
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:55
+#: blocks-pro/portfolio/portfolio-options.php:55
+#: blocks/columns/columns-block.php:61
+#: blocks/columns/columns-block.php:86
+#: blocks/columns/columns-options.php:52
+msgid "Columns"
+msgstr ""
+
+#: blocks-pro/portfolio-cards/portfolio-cards-options.php:56
+#: blocks-pro/portfolio/portfolio-options.php:56
+msgid "Amount of portfolio columns . "
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:139
+#: blocks-pro/portfolio/portfolio-options.php:146
+msgid "Show filter"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:165
+msgid "Only show categories with posts"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:172
+#: blocks-pro/portfolio/portfolio-options.php:186
+msgid "Select filter style"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:177
+msgid "Filter style"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:191
+msgid "Show All text"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:194
+msgid "Default text for \"Show all\" button"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:199
+#: blocks-pro/portfolio/portfolio-options.php:206
+msgid "Show margin"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:211
+#: blocks-pro/portfolio/portfolio-options.php:218
+msgid "Alternate content and image"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:223
+#: blocks-pro/portfolio/portfolio-options.php:230
+msgid "Show full width image"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:235
+msgid "Title overlay"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:242
+msgid "Show title over the image"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:247
+#: blocks-pro/portfolio/portfolio-options.php:254
+msgid "Show open button"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:259
+msgid "Open button text"
+msgstr ""
+
+#: blocks-pro/portfolio/portfolio-options.php:262
+msgid "Default text for open article button"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:53
+msgid "Field"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:57
+#: blocks-pro/post-data/post-data-options.php:101
+msgid "Post ID"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:58
+msgid "Post author"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:59
+msgid "Post date"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:60
+msgid "Post date GMT"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:61
+msgid "Post content"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:62
+msgid "Post title"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:63
+msgid "Post excerpt"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:64
+msgid "Post status"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:65
+msgid "Comment status"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:66
+msgid "Ping status"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:67
+msgid "Post name"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:68
+msgid "Post modified"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:69
+msgid "Post modified GMT"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:70
+msgid "Filtered post content"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:71
+msgid "Post parent"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:73
+msgid "Menu order"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:74
+msgid "Post type"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:75
+msgid "Post mime type"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:76
+msgid "Comment count"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:78
+msgid "Post data field name"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:83
+#: blocks/accordion/accordion-options.php:82
+#: blocks/divider/divider-options.php:72
+#: blocks/label/label-options.php:56
+#: blocks/spoiler/spoiler-options.php:79
+msgid "Default"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:84
+msgid "This text will be shown if data is not found"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:89
+msgid "Before"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:90
+msgid "This content will be shown before the value"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:95
+msgid "After"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:96
+msgid "This content will be shown after the value"
+msgstr ""
+
+#: blocks-pro/post-data/post-data-options.php:102
+msgid "You can specify custom post ID. Post slug is also allowed. Leave this field empty to use ID of the current post. Current post ID may not work in Live Preview mode"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:61
+#: blocks/accordion/accordion-options.php:58
+#: blocks/content-to-accordion/content-to-accordion-block.php:88
+msgid "Accordion"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:63
+#: blocks/spoiler/spoiler-block.php:62
+msgid "Allows you to create blocks with hidden content – spoilers (toggles). Hidden content will be shown when block title will be clicked. You can specify different icons or even use different styles for each spoiler . "
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:87
+#: blocks/content-to-accordion/content-to-accordion-block.php:96
+#: blocks/spoiler/spoiler-block.php:60
+#: blocks/spoiler/spoiler-options.php:53
+msgid "Spoiler"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:94
+#: blocks/accordion/accordion-block.php:108
+#: blocks/content-to-accordion/content-to-accordion-block.php:104
+#: blocks/content-to-accordion/content-to-accordion-block.php:120
+msgid "Spoiler Title"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:101
+#: blocks/content-to-accordion/content-to-accordion-block.php:112
+msgid "Spoiler icon"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:115
+#: blocks/content-to-accordion/content-to-accordion-block.php:128
+msgid "Spoiler content"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:122
+#: blocks/content-to-accordion/content-to-accordion-block.php:136
+msgid "Spoiler content paragraph"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:129
+#: blocks/content-to-accordion/content-to-accordion-block.php:144
+msgid "Spoiler h1"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:136
+#: blocks/accordion/accordion-block.php:150
+#: blocks/content-to-accordion/content-to-accordion-block.php:152
+#: blocks/content-to-accordion/content-to-accordion-block.php:168
+msgid "Spoiler h2"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:143
+#: blocks/content-to-accordion/content-to-accordion-block.php:160
+msgid "Spoiler h3"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:157
+#: blocks/content-to-accordion/content-to-accordion-block.php:176
+msgid "Spoiler h4"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:164
+#: blocks/content-to-accordion/content-to-accordion-block.php:184
+msgid "Spoiler h5"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:171
+#: blocks/content-to-accordion/content-to-accordion-block.php:192
+msgid "Spoiler h6"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:178
+#: blocks/accordion/accordion-block.php:185
+#: blocks/content-to-accordion/content-to-accordion-block.php:200
+msgid "Spoiler list"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:192
+msgid "Spoiler list item"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:199
+msgid "Spoiler span"
+msgstr ""
+
+#: blocks/accordion/accordion-block.php:206
+msgid "Spoiler link"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:52
+msgid "CSS Accordion Class"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:59
+msgid "Accordion with hidden content"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:69
+#: blocks/spoiler/spoiler-options.php:65
+msgid "Open"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:83
+#: blocks/spoiler/spoiler-options.php:80
+msgid "Fancy"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:84
+#: blocks/spoiler/spoiler-options.php:81
+msgid "Simple"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:113
+#: blocks/spoiler/spoiler-options.php:112
+#: blocks/tabs/tabs-options.php:96
+msgid "Anchor"
+msgstr ""
+
+#: blocks/accordion/accordion-options.php:114
+#: blocks/spoiler/spoiler-options.php:113
+#: blocks/tabs/tabs-options.php:97
+msgid "You can use unique anchor for this tab to access it with hash in page url. For example: use Hello and then navigate to url like http://example.com/page-url#Hello. This tab will be activated and scrolled in . "
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:69
+msgid "Basic Heading"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:71
+msgid "A Heading can act as a title, section heading, and/or subheading. You can give each Heading a relative level of importance, from H1 to H6. Tip: Search engines (and people!) use Headings to determine the most important themes and topics of your content. "
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:89
+msgid "Basic Heading H1"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:99
+msgid "Basic Heading H2"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:109
+msgid "Basic Heading H3"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:119
+msgid "Basic Heading H4"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:129
+msgid "Basic Heading H5"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-block.php:139
+msgid "Basic Heading H6"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-options.php:50
+#: blocks/heading/heading-options.php:51
+msgid "Heading text"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-options.php:63
+msgid "Tag"
+msgstr ""
+
+#: blocks/basic-heading/basic-heading-options.php:64
+msgid "HTML Tag to use . "
+msgstr ""
+
+#: blocks/box/box-block.php:74
+#: blocks/box/box-block.php:102
+msgid "Box"
+msgstr ""
+
+#: blocks/box/box-block.php:76
+msgid "Allows you to create boxes with colorful titles. You can easily change box appearance. Also, you can place any HTML code or even other shortcodes within it . "
+msgstr ""
+
+#: blocks/box/box-block.php:126
+#: blocks/lightbox/lightbox-block.php:128
+msgid "Content text"
+msgstr ""
+
+#: blocks/box/box-block.php:134
+#: blocks/lightbox/lightbox-block.php:136
+#: blocks/post-data/post-data-block.php:104
+msgid "Content h1"
+msgstr ""
+
+#: blocks/box/box-block.php:142
+#: blocks/lightbox/lightbox-block.php:144
+#: blocks/post-data/post-data-block.php:112
+msgid "Content h2"
+msgstr ""
+
+#: blocks/box/box-block.php:150
+#: blocks/lightbox/lightbox-block.php:152
+#: blocks/post-data/post-data-block.php:120
+msgid "Content h3"
+msgstr ""
+
+#: blocks/box/box-block.php:158
+#: blocks/lightbox/lightbox-block.php:160
+#: blocks/post-data/post-data-block.php:128
+msgid "Content h4"
+msgstr ""
+
+#: blocks/box/box-block.php:166
+#: blocks/lightbox/lightbox-block.php:168
+#: blocks/post-data/post-data-block.php:136
+msgid "Content h5"
+msgstr ""
+
+#: blocks/box/box-block.php:174
+#: blocks/lightbox/lightbox-block.php:176
+#: blocks/post-data/post-data-block.php:144
+msgid "Content h6"
+msgstr ""
+
+#: blocks/box/box-block.php:182
+#: blocks/lightbox/lightbox-block.php:184
+#: blocks/post-data/post-data-block.php:152
+msgid "Content li"
+msgstr ""
+
+#: blocks/box/box-block.php:190
+#: blocks/lightbox/lightbox-block.php:192
+#: blocks/post-data/post-data-block.php:160
+msgid "Content link"
+msgstr ""
+
+#: blocks/box/box-options.php:59
+msgid "Box style preset"
+msgstr ""
+
+#: blocks/box/box-options.php:65
+msgid "Radius"
+msgstr ""
+
+#: blocks/box/box-options.php:66
+msgid "Box corners radius"
+msgstr ""
+
+#: blocks/box/box-options.php:74
+msgid "Text for the box title"
+msgstr ""
+
+#: blocks/box/box-options.php:81
+msgid "Box content"
+msgstr ""
+
+#: blocks/button/button-block.php:61
+#: blocks/button/button-block.php:86
+#: blocks/portfolio/portfolio-block.php:296
+msgid "Button"
+msgstr ""
+
+#: blocks/button/button-block.php:63
+msgid "Allows create highly customizable buttons. You can change button style, colors, size, add an icon or description . "
+msgstr ""
+
+#: blocks/button/button-block.php:106
+#: blocks/divider/divider-options.php:63
+#: blocks/label/label-options.php:69
+#: blocks/post-data/post-data-block.php:96
+#: blocks/tabs/tabs-block.php:125
+msgid "Text"
+msgstr ""
+
+#: blocks/button/button-options.php:53
+#: blocks/dailymotion/dailymotion-options.php:51
+#: blocks/quote/quote-options.php:67
+#: blocks/tabs/tabs-options.php:103
+#: blocks/vimeo/vimeo-options.php:52
+#: blocks/youtube/youtube-options.php:52
+msgid "Url"
+msgstr ""
+
+#: blocks/button/button-options.php:54
+msgid "Button link"
+msgstr ""
+
+#: blocks/button/button-options.php:66
+msgid "Button link target"
+msgstr ""
+
+#: blocks/button/button-options.php:86
+msgid "Button background style preset"
+msgstr ""
+
+#: blocks/button/button-options.php:92
+msgid "You can upload custom icon for this button or pick a built-in icon. FontAwesome icon name or icon image URL. Examples: \"star\", http://example.com/icon.png"
+msgstr ""
+
+#: blocks/button/button-options.php:96
+msgid "Desc"
+msgstr ""
+
+#: blocks/button/button-options.php:98
+msgid "Small description under button text. This option is incompatible with icon . "
+msgstr ""
+
+#: blocks/button/button-options.php:102
+msgid "onClick"
+msgstr ""
+
+#: blocks/button/button-options.php:104
+msgid "Advanced JavaScript code for onClick action . "
+msgstr ""
+
+#: blocks/button/button-options.php:108
+msgid "Rel"
+msgstr ""
+
+#: blocks/button/button-options.php:110
+msgid "Here you can add value for the rel attribute. Example values: nofollow, lightbox"
+msgstr ""
+
+#: blocks/button/button-options.php:116
+msgid "Here you can add value for the title attribute"
+msgstr ""
+
+#: blocks/columns/columns-block.php:63
+msgid "Will help you to divide page content into columns . "
+msgstr ""
+
+#: blocks/columns/columns-options.php:53
+msgid "Content for your columns . "
+msgstr ""
+
+#: blocks/columns/columns-options.php:57
+#: blocks/divider/divider-options.php:88
+#: blocks/spacer/spacer-options.php:51
+msgid "Size"
+msgstr ""
+
+#: blocks/columns/columns-options.php:61
+msgid "Full width 1/1"
+msgstr ""
+
+#: blocks/columns/columns-options.php:62
+msgid "One half 1/2"
+msgstr ""
+
+#: blocks/columns/columns-options.php:63
+msgid "One third 1/3"
+msgstr ""
+
+#: blocks/columns/columns-options.php:64
+msgid "Two third 2/3"
+msgstr ""
+
+#: blocks/columns/columns-options.php:65
+msgid "One fourth 1/4"
+msgstr ""
+
+#: blocks/columns/columns-options.php:66
+msgid "Three fourth 3/4"
+msgstr ""
+
+#: blocks/columns/columns-options.php:67
+msgid "One fifth 1/5"
+msgstr ""
+
+#: blocks/columns/columns-options.php:68
+msgid "Two fifth 2/5"
+msgstr ""
+
+#: blocks/columns/columns-options.php:69
+msgid "Three fifth 3/5"
+msgstr ""
+
+#: blocks/columns/columns-options.php:70
+msgid "Four fifth 4/5"
+msgstr ""
+
+#: blocks/columns/columns-options.php:71
+msgid "One sixth 1/6"
+msgstr ""
+
+#: blocks/columns/columns-options.php:72
+msgid "Five sixth 5/6"
+msgstr ""
+
+#: blocks/columns/columns-options.php:74
+msgid "Select column width. This width will be calculated depend page width"
+msgstr ""
+
+#: blocks/columns/columns-options.php:80
+msgid "Center"
+msgstr ""
+
+#: blocks/columns/columns-options.php:86
+msgid "Is this column centered on the page"
+msgstr ""
+
+#: blocks/columns/columns-options.php:92
+msgid "Class"
+msgstr ""
+
+#: blocks/content-to-accordion/content-to-accordion-block.php:62
+msgid "Content to Accordion"
+msgstr ""
+
+#: blocks/content-to-accordion/content-to-accordion-block.php:64
+msgid "Allows you to create blocks with hidden posts content. Hidden content will be shown when block title will be clicked. You can specify different icons or even use different styles for each spoiler . "
+msgstr ""
+
+#: blocks/content-to-cards/content-to-cards-block.php:60
+msgid "Content to Cards"
+msgstr ""
+
+#: blocks/content-to-cards/content-to-cards-block.php:62
+msgid "Allows you to display expandable posts . "
+msgstr ""
+
+#: blocks/content-to-cards/content-to-cards-block.php:85
+msgid "Container"
+msgstr ""
+
+#: blocks/content-to-cards/content-to-cards-block.php:93
+msgid "item"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:60
+msgid "Content to Tabs"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:62
+msgid "Allows you to divide your content with horizontal or vertical tabs. You can specify which tab will be selected by default and turn any tab into a link . "
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:84
+#: blocks/tabs/tabs-block.php:60
+#: blocks/tabs/tabs-options.php:72
+msgid "Tabs"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:92
+msgid "Tab options"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:100
+msgid "Tab options item"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:108
+msgid "Tab Panes"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:116
+msgid "Tab Pane content"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:124
+msgid "Tab content paragraph"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:132
+msgid "Tab h1"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:140
+#: blocks/content-to-tabs/content-to-tabs-block.php:156
+msgid "Tab h2"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:148
+msgid "Tab h3"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:164
+msgid "Tab h4"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:172
+msgid "Tab h5"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:180
+msgid "Tab h6"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:188
+#: blocks/content-to-tabs/content-to-tabs-block.php:196
+msgid "Tab list"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:204
+msgid "Tab list item"
+msgstr ""
+
+#: blocks/content-to-tabs/content-to-tabs-block.php:212
+msgid "Tab span"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-block.php:62
+msgid "Allows you to insert responsive Dailymotion videos . "
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:54
+msgid "Url of Dailymotion page with video"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:60
+#: blocks/dummy-image/dummy-image-options.php:52
+#: blocks/gmap/gmap-options.php:80
+#: blocks/vimeo/vimeo-options.php:61
+#: blocks/youtube/youtube-options.php:61
+#: blocks/youtube/youtube-options.php:63
+msgid "Width"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:62
+msgid "Video width"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:68
+#: blocks/dummy-image/dummy-image-options.php:60
+#: blocks/gmap/gmap-options.php:88
+#: blocks/vimeo/vimeo-options.php:69
+#: blocks/youtube/youtube-options.php:69
+#: blocks/youtube/youtube-options.php:71
+msgid "Height"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:70
+#: blocks/gmap/gmap-options.php:90
+#: blocks/vimeo/vimeo-options.php:71
+msgid "Map height"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:76
+#: blocks/gmap/gmap-options.php:60
+#: blocks/vimeo/vimeo-options.php:77
+#: blocks/youtube/youtube-options.php:77
+msgid "Responsive"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:82
+#: blocks/vimeo/vimeo-options.php:83
+#: blocks/youtube/youtube-options.php:83
+msgid "Ignore width and height parameters and make player responsive"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:88
+#: blocks/vimeo/vimeo-options.php:89
+#: blocks/youtube/youtube-options.php:89
+msgid "Autoplay"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:94
+#: blocks/youtube/youtube-options.php:95
+msgid "Play video automatically when a page is loaded. Please note, in modern browsers autoplay option only works with the mute option enabled"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:100
+msgid "Background"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:102
+msgid "HTML (HEX) color of the background of controls elements"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:108
+msgid "Foreground"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:110
+msgid "HTML (HEX) color of the foreground of controls elements"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:116
+msgid "Highlight"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:118
+msgid "HTML (HEX) color of the controls elements' highlights"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:124
+msgid "Logo"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:130
+msgid "Allows to hide or show the Dailymotion logo"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:136
+msgid "Quality"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:145
+msgid "Determines the quality that must be played by default if available"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:151
+msgid "Related"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:157
+msgid "Show related videos at the end of the video"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:163
+#: blocks/label/label-options.php:61
+msgid "Info"
+msgstr ""
+
+#: blocks/dailymotion/dailymotion-options.php:169
+msgid "Show videos info (title/author) on the start screen"
+msgstr ""
+
+#: blocks/divider/divider-block.php:61
+msgid "Divider"
+msgstr ""
+
+#: blocks/divider/divider-block.php:63
+msgid "Allows you to divide page content with styled divider. You can customize colours, hide “Got to top” link and adjust divider size . "
+msgstr ""
+
+#: blocks/divider/divider-block.php:121
+msgid "Go to top"
+msgstr ""
+
+#: blocks/divider/divider-options.php:51
+msgid "Top"
+msgstr ""
+
+#: blocks/divider/divider-options.php:58
+msgid "Show link to top of the page or not"
+msgstr ""
+
+#: blocks/divider/divider-options.php:64
+msgid "Text for the GO TOP link"
+msgstr ""
+
+#: blocks/divider/divider-options.php:73
+msgid "Dotted"
+msgstr ""
+
+#: blocks/divider/divider-options.php:74
+msgid "Dashed"
+msgstr ""
+
+#: blocks/divider/divider-options.php:75
+msgid "Double"
+msgstr ""
+
+#: blocks/divider/divider-options.php:77
+msgid "Choose style for this divider"
+msgstr ""
+
+#: blocks/divider/divider-options.php:81
+msgid "Margin"
+msgstr ""
+
+#: blocks/divider/divider-options.php:83
+msgid "Adjust the top and bottom margins of this divider (in pixels)"
+msgstr ""
+
+#: blocks/divider/divider-options.php:90
+msgid "Height of the divider (in pixels)"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-block.php:60
+msgid "Dummy Image"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-block.php:62
+msgid "Allows you to display a dummy image. You can change the image theme and size . "
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:53
+msgid "Image width"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:61
+msgid "Image height"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:67
+msgid "Theme "
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:70
+msgid "Any"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:71
+msgid "Abstract"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:72
+msgid "Animals"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:73
+msgid "Business"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:74
+msgid "Cats"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:75
+msgid "City"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:76
+msgid "Food"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:77
+msgid "Nightlife"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:78
+msgid "Fashion"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:79
+msgid "People"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:80
+msgid "Nature"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:81
+msgid "Sports"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:82
+msgid "Technics"
+msgstr ""
+
+#: blocks/dummy-image/dummy-image-options.php:83
+msgid "Transport"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-block.php:61
+msgid "Dummy Text"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-block.php:63
+msgid "This shortcode allows you to display “lorem ipsum” text. You can choose how much paragraphs or words will be generated . "
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:51
+msgid "What"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:52
+msgid "What to generate"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:55
+msgid "Paragraphs"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:56
+msgid "Words"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:57
+msgid "Bytes"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:64
+msgid "Amount"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:65
+msgid "How many items (paragraphs or words) to generate. Minimum words amount is 5"
+msgstr ""
+
+#: blocks/dummy-text/dummy-text-options.php:72
+msgid "Cache "
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:61
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:63
+msgid "Add FontAwesome to the visual editor . "
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:82
+msgid "Block content"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:96
+msgid "Before Icon"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:103
+msgid "Before Icon Link"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:110
+msgid "Before Icon Text"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:117
+msgid "Before Icon Span"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:124
+#: blocks/fontawesome/fontawesome-block.php:145
+msgid "Before Icon H1"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:131
+msgid "Before Icon H2"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:138
+msgid "Before Icon H3"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:152
+msgid "Before Icon H4"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:159
+msgid "Before Icon H5"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:166
+msgid "Before Icon H6"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:173
+#: blocks/fontawesome/fontawesome-block.php:180
+msgid "Before Icon List"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:187
+msgid "Before Icon List item"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:194
+msgid "After Icon"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:201
+msgid "After Icon Link"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:208
+msgid "After Icon Text"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:215
+msgid "After Icon Span"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:222
+#: blocks/fontawesome/fontawesome-block.php:243
+msgid "After Icon H1"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:229
+msgid "After Icon H2"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:236
+msgid "After Icon H3"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:250
+msgid "After Icon H4"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:257
+msgid "After Icon H5"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:264
+msgid "After Icon H6"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:271
+#: blocks/fontawesome/fontawesome-block.php:278
+msgid "After Icon List"
+msgstr ""
+
+#: blocks/fontawesome/fontawesome-block.php:285
+msgid "After Icon List item"
+msgstr ""
+
+#: blocks/gmap/gmap-block.php:61
+msgid "Google Map"
+msgstr ""
+
+#: blocks/gmap/gmap-block.php:63
+msgid "Will help you to display Google maps, easily . "
+msgstr ""
+
+#: blocks/gmap/gmap-options.php:51
+msgid "Address"
+msgstr ""
+
+#: blocks/gmap/gmap-options.php:54
+msgid "Address for the marker. You can type it in any language"
+msgstr ""
+
+#: blocks/gmap/gmap-options.php:66
+msgid "Ignore width and height parameters and make map responsive"
+msgstr ""
+
+#: blocks/gmap/gmap-options.php:72
+msgid "Zoom"
+msgstr ""
+
+#: blocks/gmap/gmap-options.php:74
+msgid "Zoom sets the initial zoom level of the map. Accepted values range from 1 (the whole world) to 21 (individual buildings). Use 0 (zero) to set zoom level depending on displayed object (automatic)"
+msgstr ""
+
+#: blocks/gmap/gmap-options.php:82
+#: blocks/vimeo/vimeo-options.php:63
+msgid "Map width"
+msgstr ""
+
+#: blocks/heading/heading-block.php:75
+msgid "Heading"
+msgstr ""
+
+#: blocks/heading/heading-block.php:77
+msgid "Allows you to create styled headings with customisable size and margin . "
+msgstr ""
+
+#: blocks/label/label-block.php:75
+msgid "Label"
+msgstr ""
+
+#: blocks/label/label-block.php:77
+msgid "Will help you to create colourful labels. You can choose among 6 various label colours . "
+msgstr ""
+
+#: blocks/label/label-options.php:57
+msgid "Success"
+msgstr ""
+
+#: blocks/label/label-options.php:58
+msgid "Warning"
+msgstr ""
+
+#: blocks/label/label-options.php:59
+msgid "Important"
+msgstr ""
+
+#: blocks/label/label-options.php:60
+msgid "Black"
+msgstr ""
+
+#: blocks/label/label-options.php:63
+msgid "Style of the label"
+msgstr ""
+
+#: blocks/lightbox/lightbox-block.php:75
+msgid "Lightbox"
+msgstr ""
+
+#: blocks/lightbox/lightbox-block.php:77
+msgid "Allows you to display various elements in a pop-up window. You can display an image, a web page, or any HTML content . "
+msgstr ""
+
+#: blocks/portfolio-cards/portfolio-cards-block.php:60
+msgid "PortfolioCards"
+msgstr ""
+
+#: blocks/portfolio-cards/portfolio-cards-block.php:62
+msgid "Allows you to create blocks with hidden posts content. Hidden content will be shown when block title will be clicked. You can specify different icons or even use different styles for each spoiler."
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:60
+#: blocks/portfolio/portfolio-block.php:134
+msgid "Portfolio"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:62
+msgid "Allows you to create blocks with hidden posts content. Hidden content will be shown when block title will be clicked. You can specify different icons or even use different styles for each spoiler. "
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:95
+msgid "Filter"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:104
+msgid "Filter item"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:113
+msgid "Filter link"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:126
+msgid "Active item"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:143
+msgid "Article"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:161
+msgid "Left icon"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:170
+msgid "Right icon"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:179
+msgid "Description container"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:188
+msgid "Article title"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:206
+msgid "Content H1"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:215
+msgid "Content H2"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:224
+msgid "Content H3"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:233
+msgid "Content H4"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:242
+msgid "Content H5"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:251
+msgid "Content H6"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:260
+msgid "Content p"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:269
+msgid "Content a"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:278
+msgid "Content ul"
+msgstr ""
+
+#: blocks/portfolio/portfolio-block.php:287
+msgid "Content ul li"
+msgstr ""
+
+#: blocks/post-data/post-data-block.php:60
+msgid "Post Data"
+msgstr ""
+
+#: blocks/post-data/post-data-block.php:62
+msgid "Allows to display various post fields, including post title, post content, modified date etc . "
+msgstr ""
+
+#: blocks/post-data/post-data-block.php:168
+msgid "Content image"
+msgstr ""
+
+#: blocks/post-data/post-data-block.php:176
+msgid "Content figure"
+msgstr ""
+
+#: blocks/quote/quote-block.php:74
+#: blocks/quote/quote-options.php:60
+msgid "Quote"
+msgstr ""
+
+#: blocks/quote/quote-block.php:76
+msgid "Allows you to insert quotes in your content. You can specify quote author and link . "
+msgstr ""
+
+#: blocks/quote/quote-block.php:103
+msgid "quote"
+msgstr ""
+
+#: blocks/quote/quote-block.php:111
+msgid "quote pre-img"
+msgstr ""
+
+#: blocks/quote/quote-block.php:119
+msgid "quote post-img"
+msgstr ""
+
+#: blocks/quote/quote-block.php:127
+msgid "quote content"
+msgstr ""
+
+#: blocks/quote/quote-block.php:135
+msgid "quote cite"
+msgstr ""
+
+#: blocks/quote/quote-block.php:143
+msgid "quote cite link"
+msgstr ""
+
+#: blocks/quote/quote-options.php:53
+msgid "Cite"
+msgstr ""
+
+#: blocks/quote/quote-options.php:54
+msgid "Quote author name"
+msgstr ""
+
+#: blocks/quote/quote-options.php:61
+msgid "Quote text"
+msgstr ""
+
+#: blocks/quote/quote-options.php:68
+msgid "Url of the quote author. Leave empty to disable link"
+msgstr ""
+
+#: blocks/spacer/spacer-block.php:60
+msgid "Spacer"
+msgstr ""
+
+#: blocks/spacer/spacer-block.php:62
+msgid "Will help you to create an empty space between elements on a page . "
+msgstr ""
+
+#: blocks/spacer/spacer-block.php:84
+msgid "spacer"
+msgstr ""
+
+#: blocks/spacer/spacer-options.php:53
+msgid "Height of the spacer in pixels"
+msgstr ""
+
+#: blocks/spoiler/spoiler-block.php:84
+msgid "spoiler"
+msgstr ""
+
+#: blocks/spoiler/spoiler-options.php:54
+msgid "Spoiler with hidden content"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:62
+msgid "Allows you to divide your content with horizontal or vertical tabs. You can specify which tab will be selected by default and turn any tab into link. You can use any HTML code or even other shortcodes as a content . "
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:85
+msgid "tabs"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:93
+msgid "navs"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:109
+msgid "Panes"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:117
+msgid "Pane"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:133
+msgid "Link"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:141
+msgid "Header 1"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:149
+msgid "Header 2"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:157
+msgid "Header 3"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:165
+msgid "Header 4"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:173
+msgid "Header 5"
+msgstr ""
+
+#: blocks/tabs/tabs-block.php:181
+msgid "Header 6"
+msgstr ""
+
+#: blocks/tabs/tabs-options.php:51
+msgid "Active"
+msgstr ""
+
+#: blocks/tabs/tabs-options.php:53
+msgid "Which tab is open by default. Number from 1 to 100 . "
+msgstr ""
+
+#: blocks/tabs/tabs-options.php:73
+msgid "Content for your tabs . "
+msgstr ""
+
+#: blocks/tabs/tabs-options.php:85
+msgid "Disabled"
+msgstr ""
+
+#: blocks/tabs/tabs-options.php:104
+msgid "Link tab to any webpage. Use full URL to turn the tab title into link . "
+msgstr ""
+
+#: blocks/vimeo/vimeo-block.php:60
+msgid "Vimeo"
+msgstr ""
+
+#: blocks/vimeo/vimeo-block.php:62
+msgid "Allows you to insert responsive Vimeo videos . "
+msgstr ""
+
+#: blocks/vimeo/vimeo-options.php:55
+msgid "Url of Vimeo page with video. Ex: http://vimeo.com/watch?v=XXXXXX"
+msgstr ""
+
+#: blocks/vimeo/vimeo-options.php:95
+msgid "Play video automatically when a page is loaded . "
+msgstr ""
+
+#: blocks/vimeo/vimeo-options.php:101
+msgid "DNT"
+msgstr ""
+
+#: blocks/vimeo/vimeo-options.php:107
+msgid "Setting this parameter to YES will block the player from tracking any playback session data. Will have the same effect as enabling a Do Not Track header in your browser"
+msgstr ""
+
+#: blocks/youtube/youtube-block.php:62
+msgid "Allows you to insert responsive YouTube videos. You can create playlists using Youtube Advanced block . "
+msgstr ""
+
+#: blocks/youtube/youtube-options.php:55
+msgid "Url of YouTube page with video. Ex: http://youtube.com/watch?v=XXXXXX"
+msgstr ""
+
+#: blocks/youtube/youtube-options.php:101
+msgid "Mute"
+msgstr ""
+
+#: blocks/youtube/youtube-options.php:107
+msgid "Mute the player"
+msgstr ""
+
+#: includes/class-dummy-block-options.php:75
+msgid "Get Padma Advanced Pro to edit this Block"
+msgstr ""

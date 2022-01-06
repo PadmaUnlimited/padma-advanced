@@ -1,0 +1,11 @@
+.su-lightbox-content{
+	display: none;
+	width:50%;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding:40px;
+	background-color:#FFFFFF;
+	color:#333333;
+	box-shadow:0px 0px 15px #333333;
+	text-align:center;
+}
