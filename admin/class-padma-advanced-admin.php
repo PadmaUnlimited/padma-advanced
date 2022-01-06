@@ -185,12 +185,11 @@ class Padma_Advanced_Admin extends Padma_Settings {
 		}
 
 		$padma_blocks = new Padma_Advanced_Blocks();
-		$blocks       = $padma_blocks->get_blocks();
-		$all_blocks   = array_merge( $blocks['free'], $blocks['pro'] );
+		$all_blocks   = $padma_blocks->get_blocks();
 		$html         = '';
 
 		/**
-		 * Free Blocks
+		 * Blocks
 		 */
 		foreach ( $all_blocks as $block_name => $block_class ) {
 
@@ -219,8 +218,7 @@ class Padma_Advanced_Admin extends Padma_Settings {
 				'categories'  => $block->categories,
 			);
 
-			$is_pro = isset( $blocks['pro'][ $block_name ] );
-			$html  .= $this->block_box( $data, $icon, $is_pro );
+			$html  .= $this->block_box( $data, $icon );
 		}
 
 		/**
@@ -242,7 +240,7 @@ class Padma_Advanced_Admin extends Padma_Settings {
 	 * @param string $icon Block Icon.
 	 * @param bool   $pro Block Free or Pro.
 	 */
-	private function block_box( $block_data, $icon, $pro = false ) {
+	private function block_box( $block_data, $icon ) {
 
 		if ( is_array( $block_data['categories'] ) ) {
 
@@ -259,10 +257,6 @@ class Padma_Advanced_Admin extends Padma_Settings {
 
 		$html  = '';
 		$html .= '<a class="padma-advanced-list-item ' . $filters . '" >';
-
-		if ( $pro ) {
-			$html .= '<img class="pro" src="' . plugin_dir_url( __DIR__ ) . 'admin/img/icon-pro.png" >';
-		}
 		$html .= '<span class="padma-advanced-list-item-image">';
 		$html .= '<img src="' . $icon . '" alt="" width="120" height="120">';
 		$html .= '</span>';

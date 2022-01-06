@@ -37,12 +37,12 @@ class Padma_Advanced_Blocks {
 		 *
 		 * Register elements as blocks (FREE)
 		 */
-		$this->blocks['free'] = array();
+		$this->blocks = array();
 
 		/**
-		 * Free Visual Elements Blocks
+		 * Blocks
 		 */
-		$padma_visual_elements_free = array(
+		$this->blocks = array(
 			'accordion'     => 'PadmaVisualElementsBlockAccordion',
 			'basic-heading' => 'PadmaVisualElementsBlockBasicHeading',
 			'box'           => 'PadmaVisualElementsBlockBox',
@@ -70,15 +70,11 @@ class Padma_Advanced_Blocks {
 			'portfolio'            => 'PadmaVisualElementsBlockPortfolio',
 			'portfolio-cards'      => 'PadmaVisualElementsBlockPortfolioCards',
 			'post-data'            => 'PadmaVisualElementsBlockPostData',
-			'store-products'     => 'PadmaStoreBlockProducts',
-			'store-account'      => 'PadmaStoreBlockAccount',
-			'store-login-button' => 'PadmaStoreBlockLoginButton',
-			'slider-revolution' => 'PadmaSliderRevolution',
+			'store-products'       => 'PadmaStoreBlockProducts',
+			'store-account'        => 'PadmaStoreBlockAccount',
+			'store-login-button'   => 'PadmaStoreBlockLoginButton',
+			'slider-revolution'    => 'PadmaSliderRevolution',
 		);
-
-		if ( function_exists( 'is_plugin_active' ) && ! is_plugin_active( 'padma-visual-elements/padma-visual-elements.php' ) ) {
-			$this->blocks['free'] = array_merge( $this->blocks['free'], $padma_visual_elements_free );
-		}
 	}
 
 	/**
@@ -93,9 +89,9 @@ class Padma_Advanced_Blocks {
 		}
 
 		/*
-		 * Free Blocks
+		 * Blocks
 		 */
-		foreach ( $this->blocks['free'] as $block_name => $block_class ) {
+		foreach ( $this->blocks as $block_name => $block_class ) {
 
 			$block_type_url = PADMA_ADVANCED_URL . 'blocks/' . $block_name;
 			$class_file     = PADMA_ADVANCED_DIR . 'blocks/' . $block_name . '/' . $block_name . '-block.php';
