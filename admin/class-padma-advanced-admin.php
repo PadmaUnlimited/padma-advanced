@@ -185,14 +185,9 @@ class Padma_Advanced_Admin extends Padma_Settings {
 		}
 
 		$padma_blocks = new Padma_Advanced_Blocks();
-
-		if ( padma_advanced_fs()->is__premium_only() ) {
-			$padma_blocks = new Padma_Advanced_Blocks_Pro();
-		}
-
-		$blocks     = $padma_blocks->get_blocks();
-		$all_blocks = array_merge( $blocks['free'], $blocks['pro'] );
-		$html       = '';
+		$blocks       = $padma_blocks->get_blocks();
+		$all_blocks   = array_merge( $blocks['free'], $blocks['pro'] );
+		$html         = '';
 
 		/**
 		 * Free Blocks

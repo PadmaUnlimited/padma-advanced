@@ -155,11 +155,6 @@ class Padma_Advanced {
 		if ( ! class_exists('Padma_Advanced\Padma_Advanced_Admin') ) {
 
 			require_once PADMA_ADVANCED_DIR . 'admin/class-padma-advanced-admin.php';
-			if ( padma_advanced_fs()->is__premium_only() ) {
-				if ( ! class_exists( 'Padma_Advanced\Padma_Advanced_Admin_Pro' ) ) {
-					require_once PADMA_ADVANCED_DIR . 'admin/class-padma-advanced-admin-pro.php';
-				}
-			}
 		}
 
 		/**
@@ -168,23 +163,6 @@ class Padma_Advanced {
 		if ( ! class_exists( 'Padma_Advanced\Padma_Advanced_Blocks' ) ) {
 
 			require_once PADMA_ADVANCED_DIR . 'includes/class-padma-advanced-blocks.php';
-
-			if ( padma_advanced_fs()->is__premium_only() ) {
-				if ( ! class_exists( 'Padma_Advanced\Padma_Advanced_Blocks_Pro' ) ) {
-					require_once PADMA_ADVANCED_DIR . 'includes/class-padma-advanced-blocks-pro.php';
-				}
-			}
-		}
-
-		/**
-		 * Dummy Options Class
-		 *
-		 * @return void
-		 */
-		if ( ! padma_advanced_fs()->is__premium_only() ) {
-			if ( ! class_exists( 'Padma_Advanced\PadmaDummyBlockOptions' ) ) {
-				include_once PADMA_ADVANCED_DIR . 'includes/class-dummy-block-options.php';
-			}
 		}
 
 		/**
@@ -222,11 +200,6 @@ class Padma_Advanced {
 	private function define_admin_hooks() {
 
 		$plugin_admin = new Padma_Advanced_Admin();
-		if ( padma_advanced_fs()->is__premium_only() ) {
-			if( class_exists('Padma_Advanced\Padma_Advanced_Admin_Pro') ){
-				$plugin_admin = new Padma_Advanced_Admin_Pro();
-			}			
-		}
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
@@ -258,10 +231,6 @@ class Padma_Advanced {
 		$this->loader->run();
 
 		$padma_blocks = new Padma_Advanced_Blocks();
-
-		if ( padma_advanced_fs()->is__premium_only() ) {
-			$padma_blocks = new Padma_Advanced_Blocks_Pro();
-		}
 
 		$padma_blocks->register();
 	}

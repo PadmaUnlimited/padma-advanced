@@ -1,24 +1,28 @@
 <?php
-
 /**
- * Dummy Options for Block
+ * Block options class
  *
- * @link       https://padmaunlimited.com
- * @since      1.0.0
- *
- * @package    Padma_Advanced
- * @subpackage Padma_Advanced/includes
- * @author     Padma Team <support@padmaunlimited.com>
+ * @package Padma_Advanced
  */
 
 namespace Padma_Advanced;
 
-/**
- * PadmaVisualElementsFontAwesomeBlockOptions Class Doc Comment
- *
- * @category Class
- * @package  Padma Advanced
- * @author   Padma Dev Team
- */
-class PadmaStoreBlockAccountOptions extends PadmaDummyBlockOptions {
+
+class PadmaStoreBlockAccountOptions extends \PadmaBlockOptionsAPI {
+
+	public $tabs;
+	public $sets;
+	public $inputs;
+
+	public function __construct(){
+
+		$this->tabs = array();		
+		$this->sets = array();
+		$this->inputs = array();
+
+	}
+
+	public function modify_arguments($args = false) {
+	}
+
 }

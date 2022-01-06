@@ -38,13 +38,6 @@ if ( function_exists( 'is_plugin_active' ) && is_plugin_active( 'padma-visual-el
 if ( $load ) {
 
 	$settings = new Padma_Advanced_Admin( __( 'Settings', 'padma-advanced' ) );
-
-	if ( padma_advanced_fs()->is__premium_only() ) {
-		if ( class_exists( 'Padma_Advanced\Padma_Advanced_Admin_Pro' ) ) {
-			$settings = new Padma_Advanced_Admin_Pro();
-		}
-	}
-
 	$settings->set_settings();
 
 	/**

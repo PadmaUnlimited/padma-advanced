@@ -173,12 +173,7 @@ class Padma_Advanced_Blocks {
 
 			$block_type_url = PADMA_ADVANCED_URL . 'blocks/' . $block_name;
 			$class_file     = PADMA_ADVANCED_DIR . 'blocks/' . $block_name . '/' . $block_name . '-block.php';
-
-			if ( padma_advanced_fs()->is__premium_only() ) {
-				$options_file = PADMA_ADVANCED_DIR . 'blocks-pro/' . $block_name . '/' . $block_name . '-options.php';				
-			} else {
-				$options_file = PADMA_ADVANCED_DIR . 'blocks/' . $block_name . '/' . $block_name . '-options.php';
-			}
+			$options_file   = PADMA_ADVANCED_DIR . 'blocks/' . $block_name . '/' . $block_name . '-options.php';
 
 			$icons = array(
 				'path' => __DIR__ . '/blocks-pro/' . $block_name . '/',
