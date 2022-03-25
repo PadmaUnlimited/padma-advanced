@@ -10,7 +10,7 @@
  * Plugin Name: Padma Advanced
  * Plugin URI: https://padmaunlimited.com/
  * Description: Expand the possibilities and simplify the design and development processes of WordPress + Padma Theme based websites.
- * Version: 0.0.15
+ * Version: 0.0.16
  * Requires at least: 5.2
  * Requires PHP: 7.0
  * Author: Padma Unlimited
@@ -37,7 +37,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Version.
  */
-define( 'PADMA_ADVANCED_VERSION', '0.0.15' );
+define( 'PADMA_ADVANCED_VERSION', '0.0.16' );
 
 
 /**
